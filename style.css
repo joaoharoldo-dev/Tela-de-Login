@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background-image: url(img/papeis/william-veitch-7x7kxB0sL08-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: transparent;
+    padding: 30px 40px;
+    width: 430px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.589);
+}
+
+.container h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.input input {
+    padding: 5px 45px 5px 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.input input::placeholder {
+    color: #ffffff;
+}
+
+.input img {
+    position: absolute;
+    right: 8px;
+    top: 13px;
+}
+
+.input a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.input a:hover {
+    text-decoration: underline;
+}
+
+.bt {
+    margin: 20px 0px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(137, 1, 46);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bt:hover {
+    background-color: rgb(217, 9, 79);
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+}
+
+p a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
